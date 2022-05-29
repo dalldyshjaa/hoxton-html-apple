@@ -139,6 +139,81 @@ header img {
   width: 600px;
   height: 300px;
 }
+
+.prehistoric-planet {
+  height: 1000px;
+  position: relative;
+}
+.prehistoric-planet-video {
+  z-index: 5;
+  opacity: 0.96;
+}
+.before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  z-index: 3;
+  display: grid;
+  place-items: center;
+}
+.video-stream-info {
+  padding-top: 550px;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-size: 25px;
+  font-family: ROBOTO;
+  gap: 10px;
+}
+.titles {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-rows: auto auto;
+  place-items: center;
+}
+.titles h1 {
+  font-size: 80px !important;
+  font-family: roboto;
+}
+.titles h4 {
+  font-size: 20px !important;
+  font-family: roboto;
+}
+.video-stream-info a button {
+  display: grid;
+  grid-auto-flow: column;
+  width: 130px;
+  height: 30px;
+  border: none;
+  border-radius: 30px;
+  place-content: center;
+  padding-top: 2px;
+  font-size: 15px;
+  font-weight: bolder;
+  gap: 3px;
+}
+.video-stream-info a {
+  text-decoration: none;
+}
+.video-stream-info div {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: end;
+  font-family: sans-serif;
+  color: white;
+  font-size: 33px;
+}
+.video-stream-info a img {
+  width: 20px;
+  height: 20px;
+  padding-top: 2px;
+}
+
+.video-stream-info img {
+  width: 45px;
+  padding-bottom: 4px;
+}
 .articles {
   width: 100%;
   padding: 10px;
