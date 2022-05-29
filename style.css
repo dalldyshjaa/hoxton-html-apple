@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 44px;
+  background-color: #333333;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 44px;
+  position: sticky;
+  opacity: 100;
+}
+.header-container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: 44px;
+  gap: 7px;
+}
+.header-links {
+  padding: 0px 8px;
+  height: 100%;
+  text-decoration: none;
+  display: grid;
+  place-items: center;
+}
+.header-items-text {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(214, 214, 214);
+}
+header img {
+  width: 30px;
+  padding: 0px 8px;
+  padding-bottom: 2.5px;
+  color: rgb(214, 214, 214);
+}
+.unicef-thing {
+  height: 52px;
+  width: 100%;
+  background-color: white;
+  display: grid;
+  place-content: center;
+}
+.unicef-container {
+  height: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  font-family: roboto;
+}
+.unicef-container a {
+  font-size: 10px;
+  text-decoration: none;
+  color: #0066cc;
+}
+.unicef-container a:hover {
+  text-decoration: underline;
+}
+.unicef-container span {
+  font-size: 13px;
+  text-decoration: none;
+  color: #0066cc;
+}
+.unicef-thing img {
+  width: 122px;
+  height: 33px;
+}
+.iphone13 {
+  width: 100%;
+  height: 538px;
+  background-color: rgb(245, 245, 247);
+  display: grid;
+  justify-content: center;
+  align-items: end;
+  grid-template-rows: 1fr 3fr;
+}
+.iphone13 img {
+  width: 900px;
+  height: 400px;
+}
+.iphone13-text {
+  display: grid;
+  place-content: center;
+  place-items: center;
+  gap: 8px;
+  font-family: Roboto;
+  font-size: larger;
+}
+.iphone13-links {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 30px;
+  padding-top: 7px;
+}
+.iphone13-links div {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1px;
+  place-content: end;
+}
+.links {
+  color: #0066cc;
+  text-decoration: none;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+.links:hover {
+  text-decoration: underline;
+}
+.iphone13-links div span {
+  padding-top: 3px;
+  font-size: 11px;
+  color: #0066cc;
+}
+.iphoneSE {
+  margin-top: 10px;
+  padding: 20px;
+  width: 100%;
+  height: 538px;
+  background-color: white;
+  display: grid;
+  justify-content: center;
+  align-items: end;
+  grid-template-rows: 1fr 3fr;
+  background-color: rgb(251, 251, 253);
+}
+.iphoneSE img {
+  width: 600px;
+  height: 300px;
+}
+.articles {
+  width: 100%;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 10px;
+}
+.box {
+  width: 100%;
+  height: auto;
+  background-color: red;
+  position: relative;
+}
+video {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.box #logo {
+  width: 33px;
+}
+.box img {
+  height: 100%;
+  width: 100%;
+}
+.article-text {
+  position: absolute;
+  z-index: 3;
+  background-color: transparent;
+  padding-bottom: 100px;
+  color: #c6e1e6;
+  font-family: roboto;
+  font-size: 10px;
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  place-items: center;
+  margin-top: 220px;
+}
+.article-text {
+  display: grid;
+  gap: 5px;
+}
+.article-link {
+  display: grid;
+  place-content: center;
+  grid-auto-flow: column;
+  align-items: end;
+  gap: 2px;
+}
+.article-link span {
+  font-size: 13px;
+  text-decoration: none;
+  color: #0066cc;
+}
+.article-link a {
+  color: #0066cc;
+  text-decoration: none;
+  font-size: 13px;
+}
+.article-description {
+  display: grid;
+  place-content: center;
+  place-items: center;
+  font-size: 13px;
+}
+.article-title {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: end;
+  font-size: 17px;
+}
