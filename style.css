@@ -183,8 +183,8 @@ header img {
 .video-stream-info a button {
   display: grid;
   grid-auto-flow: column;
-  width: 130px;
-  height: 30px;
+  width: 137px;
+  height: 35px;
   border: none;
   border-radius: 30px;
   place-content: center;
@@ -195,6 +195,9 @@ header img {
 }
 .video-stream-info a {
   text-decoration: none;
+}
+.video-stream-info a:hover {
+  opacity: 0.9;
 }
 .video-stream-info div {
   display: grid;
